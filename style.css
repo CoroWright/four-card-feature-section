@@ -31,30 +31,47 @@ main {
     text-align: center;
 }
 
+.wrapper-1 h1 {
+    margin-bottom: 1rem;
+}
+
+.wrapper-1 p {
+    margin-bottom: 1rem;
+}
+
 .wrapper-2 {
     display: flex;
 }
 
 .card-1 {
-    border-top: .5rem solid var(--Cyan);
     margin: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
+    border-top: .3rem solid var(--Cyan);
+    border-radius: .3rem;
+    box-shadow: 0 2px 5px 0;
 }
 
 .card-2 {
-    border-top: .5rem solid var(--Red);
     margin: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
+    border-top: .3rem solid var(--Red);
+    border-radius: .3rem;
+    box-shadow: 0 2px 5px 0;
 }
 
 .card-3 {
-    border-top: .5rem solid var(--Orange);
     margin: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
+    border-top: .3rem solid var(--Orange);
+    border-radius: .3rem;
+    background-color: white;
+    box-shadow: 0 2px 5px 0;
 }
 
 .card-4 {
-    border-top: .5rem solid var(--Blue);
-    margin: 1rem;
+    margin: 1.5rem;
     padding: 1rem;
+    border-top: .3rem solid var(--Blue);
+    border-radius: .3rem;
+    box-shadow: 0 2px 5px 0;
 }
