@@ -20,32 +20,17 @@ body {
     font-size: 15px;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.wrapper-1 {
+.container-1-textalign {
     text-align: center;
 }
 
-.wrapper-1 h1 {
-    margin-bottom: 1rem;
-}
-
-.wrapper-1 p {
-    margin-bottom: 1rem;
-}
-
-.wrapper-2 {
-    display: flex;
+.card p {
+    margin-bottom: 2rem;
 }
 
 .card-1 {
     margin: 1rem;
-    padding: 1.5rem;
+    padding: 2rem;
     border-top: .3rem solid var(--Cyan);
     border-radius: .3rem;
     box-shadow: 0 2px 5px 0;
@@ -74,4 +59,15 @@ main {
     border-top: .3rem solid var(--Blue);
     border-radius: .3rem;
     box-shadow: 0 2px 5px 0;
+}
+
+.card img {
+    display: block;
+    margin-left: auto;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
