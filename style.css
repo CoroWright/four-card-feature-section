@@ -82,3 +82,17 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 430px) { 
+
+    .card-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-width {
+        width: 300px;
+    }
+}
