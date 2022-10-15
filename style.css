@@ -40,6 +40,10 @@ body {
     margin-top: 2rem;
 }
 
+.card p {
+    margin-top: 1rem;
+}
+
 .card-1 {
     padding: 2rem;
     border-top: .3rem solid var(--Cyan);
