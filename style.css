@@ -20,8 +20,30 @@ body {
     font-size: 15px;
 }
 
+.container-1 {
+    width: 450px;
+    margin: auto;
+    margin-top: 4rem;
+}
+
 .container-1-textalign {
     text-align: center;
+}
+
+.container-1 h1 {
+    font-size: 2.50rem;
+}
+
+.container-1 p {
+    font-size: 1rem;
+}
+
+.container-1 p {
+    margin-top: 1rem;
+}
+
+.container-2 {
+    margin-top: 3rem;
 }
 
 .card p {
@@ -92,8 +114,24 @@ body {
         align-items: center;
     }
 
+    .container-1 {
+        width: 300px;
+    }
+
+    .container-1 h1 {
+        font-size: 1.675rem;
+    }
+
+    .container-1 p {
+        font-size: 1.1rem;
+    }
+
     .card-width {
         width: 300px;
+    }
+
+    .card-1 {
+        margin-top: 2rem;
     }
 
     .card-container {
