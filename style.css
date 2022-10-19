@@ -95,4 +95,12 @@ body {
     .card-width {
         width: 300px;
     }
+
+    .card-container {
+        margin-top: 2rem;
+    }
+
+    .card-4 {
+        margin-top: 2rem;
+    }
 }
